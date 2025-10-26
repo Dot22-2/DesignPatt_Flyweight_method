@@ -31,6 +31,6 @@ for (const auto& s : sessions) {
     std::cout << s.username << " -> Role: " << s.sharedUser->getRole() << "\n";
 }
 
-// Output
+// Output:
 // Dmytro -> Role: Admin
 // Olena -> Role: Guest
